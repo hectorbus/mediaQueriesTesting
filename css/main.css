@@ -1,0 +1,127 @@
+/* amarillo flat #FCBE1F
+   rojo flat     #DA4336
+   azul flat     #4385F5
+   verde flat    #109D59
+   blanco flat   #FFFFFF
+   */
+
+html {
+    background-color: #FCBE1F;
+}
+body {
+    width: 828px;
+    margin: 0 auto;
+    padding: 20px;
+}
+nav {
+    background-color: #DA4336;
+    width: 100%;
+    height: 83px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    
+}
+nav ul {
+    text-align: center;
+    margin-top: 0;
+    margin-left: -35px;
+}
+li{
+    padding: 0;
+    width: 190px;
+    vertical-align: top;
+    text-align: center;
+    background-color: #DA4336;
+    margin: 0;
+    position: relative;
+    color: #FFFFFF;
+    text-shadow: -3px -3px 0px rgba(0,0,0,.2);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+li a {
+    text-decoration: none;
+    margin: 0;
+}
+.nav-title h1{
+    -webkit-transition:.2s;
+    -moz-transition:.2s; 
+}
+.nav-title:hover h1{
+    -webkit-transform:scale(1.3);
+    -moz-transform:scale(1.3);
+    color: #FCBE1F;
+    text-shadow:2px 2px rgba(0,0,0,.2);
+}
+.nav-title {
+    display: inline-block;
+}
+section div img {
+    width: 240px;
+}
+.articulo img {
+    -webkit-transition:.2s;
+    -moz-transition:.2s; 
+}
+.articulo:hover img{
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+
+}
+.articulo h2 {
+    -webkit-transition:.2s;
+    -moz-transition:.2s; 
+}
+.articulo:hover h2{
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+
+}
+#contenedor {
+    background-color: rgba(0,0,0,.1);
+    padding:15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+}
+.articulo {
+    background-color: #109D59;
+    border: #FFFFFF 1px solid;
+    margin: 5px;
+    padding: 5px;
+    width: 240px;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    #contenedor{
+        width: 90%;
+        padding: 4px;
+    }
+    nav{
+        width:91.25%;
+        height: 170px;
+        text-align: center;
+    }
+    nav li{
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+}
+@media screen and (max-width: 490px) {
+    html {
+        min-width: 350px;
+    }
+    nav {
+        height: 330px;
+        width: 92%;
+    }
+}
